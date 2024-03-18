@@ -1,0 +1,132 @@
+.star-filled {
+  color: gold; /* Golden color for filled stars */
+  cursor: pointer; /* Add pointer cursor */
+  font-size: 24px; /* Adjust the font size to make the stars bigger */
+  text-decoration: underline tomato; /* Add tomato-colored underline */
+}
+
+.star-empty {
+  color: #ccc; /* Light gray color for empty stars */
+  cursor: pointer; /* Add pointer cursor */
+  font-size: 24px; /* Adjust the font size to make the stars bigger */
+  text-decoration: underline tomato; /* Add tomato-colored underline */
+}
+
+.star-filled:hover,
+.star-empty:hover {
+  font-size: 24px; /* Adjust the font size to make the stars bigger */
+  color: #ffd700; /* Darker golden color on hover */
+  text-decoration: underline tomato; /* Add tomato-colored underline on hover */
+}
+
+.popup-content {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Light gray background */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s; /* Add transition effect to box-shadow */
+}
+
+.popup-content:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Change box-shadow on hover */
+}
+
+.popup-content h3 {
+  margin: 0 0 10px;
+  color: #333; /* Dark gray heading */
+}
+
+.popup-content h3:hover {
+  color: #555; /* Change heading color on hover */
+  text-decoration: underline tomato; /* Add tomato-colored underline on hover */
+}
+
+.popup-content p {
+  margin: 5px 0;
+  line-height: 1.4;
+  color: #555; /* Dark gray text */
+}
+
+.popup-content strong {
+  font-weight: bold;
+  color: tomato; /* Tomato color for strong text */
+  text-decoration: underline tomato; /* Add tomato-colored underline */
+}
+
+.username {
+  color: #666; /* Gray color for username */
+}
+
+.username:hover {
+  color: #888; /* Change username color on hover */
+  text-decoration: underline tomato; /* Add tomato-colored underline on hover */
+}
+
+.popup-form {
+  max-width: 250px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+textarea,
+input[type="number"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 50px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container {
+  position: fixed;
+  top: 10px;
+  left: 70%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.logout-button,
+.login-button,
+.register-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover,
+.login-button:hover,
+.register-button:hover {
+  background-color: #0056b3;
+}

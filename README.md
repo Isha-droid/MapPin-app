@@ -21,6 +21,3 @@ Welcome to the Map Pinning Application! This is a web application that allows us
 - **bcrypt:** A password hashing library for secure password storage.
 - **HTML/CSS:** For styling and structuring the application.
 
-## 🛠️ Installation
-
-1. **Clone the repository:**
